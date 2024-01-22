@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <t t-name="owl.ResPartnerListView.Buttons" t-inherit="web.ListView.Buttons" t-inherit-mode="primary">
+        <xpath expr="//div[hasclass('o_list_buttons')]" position="inside">
+            <button class="btn btn-primary" type="button" t-on-click="openSaleView">
+                Sales Orders
+            </button>
+            <button class="btn btn-success" type="button">
+                Invoices
+            </button>
+            <button class="btn btn-info" type="button">
+                Meetings
+            </button>
+        </xpath>
+    </t>
+</templates>
